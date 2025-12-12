@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles/home.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CCE - Controle de Consumo Energético</title>
+    <link rel="icon" type="image/png" href="src/images/icon.png">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="#hero" class="logo" aria-label="Logo CCE, Controle de Consumo Energético">
+                <svg class="logo-icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" >
+                    <circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="4" fill="none"/>
+                    <path fill="currentColor" d="M26 14l-9 18h11l-5 18 18-27H31l5-9z"/>
+                </svg>
+                CCE
+            </a>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#saiba-mais">Saiba Mais</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li>
+                        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+                            <span class="icon-sun">☀️</span>
+                            <span class="icon-moon">🌙</span>
+                        </button>
+                    </li>
+                    <li><a href="#login" class="btn-login">Login</a></li>
+                    <li><a href="#cadastro" class="btn-cadastro">Cadastro</a></li>
+                </ul>
+            </nav>
+            <button id="hamburger-btn" aria-label="Abrir menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h1>Controle de Consumo<br>Energético</h1>
+                <p class="subtitle">A ferramenta definitiva para entender e otimizar seus gastos com energia elétrica. Economize dinheiro e reduza seu impacto ambiental.</p>
+                <div class="hero-buttons">
+                    <a href="#cadastro" class="btn-principal">
+                        <span>🚀</span> Comece Grátis
+                    </a>
+                    <a href="#saiba-mais" class="btn-secundario">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">R$ 25.000+</div>
+                        <p class="stat-description">Economizados por nossos usuários</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">1.500+</div>
+                        <p class="stat-description">Usuários ativos na plataforma</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">95%</div>
+                        <p class="stat-description">De precisão nos cálculos de consumo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="importance" class="importance-section">
+            <div class="container">
+                <div class="importance-content">
+                    <div class="importance-text">
+                        <h2>Entenda o Poder de Otimizar Seus Gastos</h2>
+                        <p>Saber exatamente quanto cada aparelho consome não é apenas sobre economia. É sobre tomar decisões inteligentes, reduzir seu impacto ambiental e ter total controle sobre uma das suas principais despesas mensais.</p>
+                        <p>Com nossa ferramenta, você transforma dados confusos da sua conta de luz em informações claras e acionáveis, permitindo que você identifique os verdadeiros vilões do consumo e planeje seu uso de forma eficiente.</p>
+                    </div>
+                    <div class="importance-image">
+                        <img src="src/images/pessoa olhando um tablet.png" alt="Pessoa analisando gráficos de consumo de energia em um tablet.">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <section id="economia" class="economy-section">
+            <div class="container">
+                <div class="economy-content">
+                    <div class="economy-image">
+                        <img src="src/images/economia-energia.jpg" alt="Gráfico mostrando economia de energia">
+                    </div>
+                    <div class="economy-text">
+                        <h2>Economia Que Faz a Diferença</h2>
+                        <p>O Brasil está entre os países que mais desperdiçam energia elétrica no mundo. Grande parte desse consumo vem de pequenos hábitos diários que passam despercebidos. Com nossa plataforma, você identifica onde está gastando demais.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="saiba-mais" class="saiba-mais-section">
+            <div class="container">
+                <div class="saiba-mais-content">
+                    <div class="saiba-mais-image">
+                        <a href="src/images/exemplo-site.png" target="_blank" title="Clique para ver a imagem em tamanho completo">
+                            <img src="src/images/exemplo-site.png" alt="Exemplo de funcionalidades do site">
+                        </a>
+                    </div>
+                    <div class="saiba-mais-text">
+                        <h2>Descubra Mais Sobre Nossa Plataforma</h2>
+                        <p>Nossa plataforma oferece ferramentas intuitivas e eficientes para ajudar você a monitorar e otimizar seu consumo de energia. Com recursos avançados de análise e visualização, você terá total controle sobre seus gastos energéticos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="about-section">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <p>
+                    A CCE nasceu da necessidade de dar às pessoas o poder de controlar suas despesas com energia de forma simples e intuitiva. Nossa missão é transformar dados complexos em informações claras, ajudando você a tomar decisões inteligentes para economizar dinheiro e contribuir com o meio ambiente.
+                </p>
+            </div>
+        </section>
+
+        <section id="login" class="form-section" style="display:none;">
+            <div class="container form-container">
+                <h2>Acesse sua Conta</h2>
+                <form id="loginForm">
+                    <label for="email-login">Email:</label>
+                    <input type="email" id="email-login" name="email_login" placeholder="seuemail@exemplo.com" required />
+
+                    <label for="senha-login">Senha:</label>
+                    <input type="password" id="senha-login" name="senha_login" placeholder="Sua senha" required />
+
+                    <p class="form-feedback"></p> 
+                    
+                    <button type="submit">Entrar</button>
+                    <div class="form-links">
+                        <p class="forgot-password"><a href="#recuperar" id="forgotPasswordLink">Esqueci minha senha</a></p>
+                        <p class="form-switch">Não tem uma conta? <a href="#cadastro">Cadastre-se</a></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="cadastro" class="form-section" style="display:none;">
+            <div class="container form-container">
+                <h2>Crie sua Conta</h2>
+                <form id="cadastroForm">
+                    <label for="nome-cadastro">Nome Completo:</label>
+                    <input type="text" id="nome-cadastro" name="nome_cadastro" placeholder="Seu nome" required />
+                    
+                    <label for="email-cadastro">Email:</label>
+                    <input type="email" id="email-cadastro" name="email_cadastro" placeholder="seuemail@exemplo.com" required />
+
+                    <label for="senha-cadastro">Crie uma Senha:</label>
+                    <input type="password" id="senha-cadastro" name="senha_cadastro" placeholder="Mínimo de 6 caracteres" required />
+
+                    <p class="form-feedback"></p> 
+
+                    <button type="submit">Cadastrar</button>
+                    <p class="form-switch">Já possui uma conta? <a href="#login">Faça Login</a></p>
+                </form>
+            </div>
+        </section>
+
+        <section id="recuperar" class="form-section" style="display:none;">
+            <div class="container form-container">
+                <h2>Recuperar Senha</h2>
+                <form id="recuperarForm">
+                    <p>Digite seu email para receber um link de recuperação de senha.</p>
+                    
+                    <label for="email-recuperar">Email:</label>
+                    <input type="email" id="email-recuperar" name="email_recuperar" placeholder="seuemail@exemplo.com" required />
+
+                    <p class="form-feedback"></p> 
+
+                    <button type="submit">Enviar Link de Recuperação</button>
+                    <p class="form-switch">Lembrou sua senha? <a href="#login">Voltar para Login</a></p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 CCE - Controle de Consumo Energético. Todos os direitos reservados.</p>
+            <p style="margin-top: 8px; font-size: 0.9rem; opacity: 0.7;">Feito com 💚 para um futuro mais sustentável</p>
+        </div>
+    </footer>
+
+    <script src="scripts/home.js"></script>
+
+</body>
+</html>
